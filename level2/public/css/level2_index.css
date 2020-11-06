@@ -1,0 +1,13 @@
+*{margin: 0px; padding: 0px;}
+body{text-align: center; background-color: #5d8255; }
+input{width: 450px; height: 40px;
+    filter:alpha(opacity=50); /*支持 IE 浏览器*/
+    -moz-opacity:0.50; /*支持 FireFox 浏览器*/
+    opacity:0.50; /*支持 Chrome, Opera, Safari 等浏览器*/
+    font-size: 24px; font-family: "微软雅黑", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+.jingshan{background-image: url("../images/level2_gone.jpg"); width: 978px; height: 625px; margin: 0px auto;}
+.lisi{background-image: url("../images/level2_register.jpg"); width: 978px; height: 625px; margin: 0px auto;  position: relative;}
+.phone{position: absolute; top: 180px; left: 300px; }
+.number{position: absolute; top: 290px; left: 300px; }
+.register{width: 450px; height: 60px; position: absolute; top: 408px; left: 270px; cursor: pointer;}
